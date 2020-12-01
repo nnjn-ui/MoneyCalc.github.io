@@ -4,34 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Purse JS</title>
+    <title>Кошелек JS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <head>
-        <h1>Purse</h1>
-        <h2>
-            Costs calculator</h2>
+        <h1>Кошелек</h1>
+        <h2>Калькулятор расходов</h2>
     </head>
 
     <main>
         <div class="container">
             <section class="total">
                 <header class="total__header">
-                    <h3>Balance</h3>
+                    <h3>Баланс</h3>
                 <p class="total__balance">0 ₽</p>
                 </header>
                 <div class="total__main">
                     <div class="total__main-item total__income">
-                        <h4>Income</h4>
+                        <h4>Доходы</h4>
                         <p class="total__money total__money-income">
                             +0 ₽
                         </p>
                     </div>
                     <div class="total__main-item total__expenses">
-                        <h4>Costs</h4>
+                        <h4>Расходы</h4>
                         <p class="total__money total__money-expenses">
                             -0 ₽
                         </p>
@@ -40,7 +39,7 @@
             </section>
 
             <section class="history">
-                <h3>Expense history</h3>
+                <h3>История расходов</h3>
                 <ul class="history__list">
                     <!-- <li class="history__item history__item-plus">Получил зарплату
                         <span class="history__money">+30000 ₽</span>
@@ -55,17 +54,15 @@
             </section>
 
             <section class="operation">
-                <h3>
-                    New operation</h3>
+                <h3>Новая операция</h3>
                 <form id="form">
                     <label>
-                        <input type="text" class="operation__fields operation__name" placeholder="The name of the operation">
+                        <input type="text" class="operation__fields operation__name" placeholder="Наименование операции">
                     </label>
                     <label>
-                        <input type="number" class="operation__fields operation__amount" placeholder="Enter the amount">
+                        <input type="number" class="operation__fields operation__amount" placeholder="Введите сумму">
                     </label>
-                    <button type="submit" class="operation__add">
-                        Add operation</button>
+                    <button type="submit" class="operation__add">Добавить операцию</button>
 
                 </form>
             </section>
