@@ -1,4 +1,3 @@
- moneycalc.github.io
 # This Calc for you money 
 ## DEMO https://nnjn-ui.github.io/moneycalc.github.io/.
 ***
